@@ -117,3 +117,8 @@ print(build_profile('Gulshan','Rahman',location='Dhaka',field='IT'))
 
 import math  # math hocche module
 print(math.pi)
+
+import calendar
+c = calendar.TextCalendar(calendar.SATURDAY)
+str = c.formatyear(2021)
+print(str)
